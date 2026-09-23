@@ -60,13 +60,6 @@ uvicorn app.main:app --reload
 ```
 
 Créer ensuite `backend/.env` avec au moins une clé de modèle :
-
-```env
-GEMINI_API_KEY=your_key_here
-# ou
-GROQ_API_KEY=your_key_here
-```
-
 `backend/.env` est ignoré par Git et ne doit jamais être publié.
 
 ### Interface React
